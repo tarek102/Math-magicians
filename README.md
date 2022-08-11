@@ -2,8 +2,7 @@
 
 # Math magicians
 
-
-In this project I have used linter for HTML and CSS and Javascript, to make sure there are no linter errors on the code.
+In this project I have built a calculator that does the mathematical equations and displays the result in it's own space.
 
 ## Built With
 
@@ -19,9 +18,25 @@ To successfully utilize this project first of all you need to clone or download 
 
 
 ## prerequisites:
-. VS code
-. HTML, CSS and Javascript extension
-. node.js 
+- Visual Studio
+- Browser
+- Github
+- Node JS
+
+
+## Setup
+
+- copy this link
+
+``` https://github.com/tarek102/Math-magicians.git ```
+
+- Choose the directory that you want to clone the repository.
+- Open the terminal in this directory and type the following command
+
+``` git clone https://github.com/tarek102/Math-magicians.git ```
+
+- ``` run npm install ```
+- ``` run npm start ```
 
 
 ## Author
@@ -48,4 +63,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is not licensed.
+This project is [MIT](./LICENSE) licensed.
