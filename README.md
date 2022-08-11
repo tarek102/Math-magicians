@@ -35,8 +35,8 @@ https://github.com/tarek102/Math-magicians.git
 
 ``` git clone https://github.com/tarek102/Math-magicians.git ```
 
-- ``` run npm install ```
-- ``` run npm start ```
+- run  ``` npm install ```
+- run ``` npm start ```
 
 
 ## Author
