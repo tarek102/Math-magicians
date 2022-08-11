@@ -28,7 +28,7 @@ To successfully utilize this project first of all you need to clone or download 
 
 - copy this link
 
-``` https://github.com/tarek102/Math-magicians.git ```
+https://github.com/tarek102/Math-magicians.git
 
 - Choose the directory that you want to clone the repository.
 - Open the terminal in this directory and type the following command
