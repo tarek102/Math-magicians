@@ -2,16 +2,23 @@
 /* eslint-disable no-unused-vars */
 
 import React from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
+import Home from './components/Home';
 import Calculator from './components/Calculator';
+import Navbar from './components/Navbar';
+import Quote from './components/Quote';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <Calculator />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<Calculator />} />
+        <Route path="/quote" element={<Quote />} />
+      </Routes>
+    </div>
+  );
 }
 
 export default App;

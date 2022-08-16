@@ -9,6 +9,7 @@ body {
   background-color: aqua;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -46,4 +47,69 @@ body {
 
 .orange {
   background-color: #f5913e;
+}
+
+/* Navigation */
+
+.navigation {
+  width: 100%;
+  align-self: flex-start;
+  justify-self: start;
+  position: fixed;
+  top: 0;
+}
+
+.navigation nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+.navigation nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation nav ul li {
+  list-style: none;
+  margin-left: 15px;
+}
+
+.navigation nav ul li a {
+  color: rgb(36, 33, 48);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navigation nav ul li a:hover {
+  color: rgb(100, 86, 158);
+}
+
+.separator {
+  height: 100%;
+  width: 1px;
+  display: block;
+  color: black;
+}
+
+/* Quote */
+
+.Quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.Quote p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Home */
+
+.Home {
+  padding: 25px;
 }
