@@ -55,7 +55,7 @@ describe('Calculate', () => {
     expect(newRes.total).toBe('0')
   });
 
-  it('Divide 80 / 2 expecting 0', () => {
+  it('Divide 80 / 4 expecting 20', () => {
     const res = {
       total: '80',
       next: '4',
@@ -64,6 +64,6 @@ describe('Calculate', () => {
 
     const newRes = calculate(res, equal);
 
-    expect(newRes.total).toEqual('2')
+    expect(newRes.total).toEqual('20')
   });
 })
