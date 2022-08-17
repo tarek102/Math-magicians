@@ -1,13 +1,9 @@
-import React from 'react';
-import calculate from "../components/logic/calculate";
-
+import calculate from '../components/logic/calculate';
 
 describe('Calculate', () => {
-
   const equal = '=';
 
   it('Adds 8 + 2 expecting 10', () => {
-    
     const res = {
       total: '8',
       next: '2',
@@ -27,8 +23,8 @@ describe('Calculate', () => {
     };
 
     const newRes = calculate(res, equal);
-    
-    expect(newRes.total).toEqual('60')
+
+    expect(newRes.total).toEqual('60');
   });
 
   it('Multiply 1000 * 5 expecting 5000', () => {
@@ -40,7 +36,7 @@ describe('Calculate', () => {
 
     const newRes = calculate(res, equal);
 
-    expect(newRes.total).toBe('5000')
+    expect(newRes.total).toBe('5000');
   });
 
   it('modulus 12 % 4 expecting 0', () => {
@@ -52,7 +48,7 @@ describe('Calculate', () => {
 
     const newRes = calculate(res, equal);
 
-    expect(newRes.total).toBe('0')
+    expect(newRes.total).toBe('0');
   });
 
   it('Divide 80 / 4 expecting 20', () => {
@@ -64,6 +60,6 @@ describe('Calculate', () => {
 
     const newRes = calculate(res, equal);
 
-    expect(newRes.total).toEqual('20')
+    expect(newRes.total).toEqual('20');
   });
-})
+});

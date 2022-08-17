@@ -1,8 +1,8 @@
-import React from "react";
-import { render } from "@testing-library/react";
-import Home from "../components/Home";
+import React from 'react';
+import { render } from '@testing-library/react';
+import Home from '../components/Home';
 
-test("renders correctly", () => {
+test('renders correctly', () => {
   const tree = render(<Home />);
   expect(tree).toMatchSnapshot();
 });
