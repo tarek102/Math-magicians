@@ -1,8 +1,5 @@
-/* eslint-disable react/prefer-stateless-function */
-/* eslint-disable no-unused-vars */
-
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Calculator from './components/Calculator';
 import Navbar from './components/Navbar';
