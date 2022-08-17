@@ -15,7 +15,6 @@ describe('Test rendering and user interaction', () => {
     fireEvent.click(screen.getByRole('button', { name: '+' }));
     fireEvent.click(screen.getByRole('button', { name: '7' }));
     fireEvent.click(screen.getByRole('button', { name: '=' }));
-
     expect(screen.getByText('28')).toBeTruthy();
   });
 });
