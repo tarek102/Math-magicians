@@ -39,10 +39,13 @@ https://github.com/tarek102/Math-magicians.git
 - run ``` npm start ```
 
 
-## Author
+## Authors
 
 👤 Tarek
 - GitHub: [@tarek102](https://github.com/tarek102)
+
+👤 Bengi Genç
+- GitHub: [@bengigo](https://github.com/bengigo)
 
 
 ## 🤝 Contributing
