@@ -4,6 +4,10 @@
 
 In this project I have built a calculator that does the mathematical equations and displays the result in it's own space.
 
+## Netlify
+
+[Live Demo](https://bespoke-gelato-318f7e.netlify.app/)
+
 ## Built With
 
 - HTML
